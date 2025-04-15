@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Responsive Redesign</title>
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <div class="nav-bar">
+      <div class="nav-icons">
+        <img src="images/eutawville.png" />
+        <img src="images/sc.png" />
+      </div>
+
+      <div class="hamburger" id="hamburger">☰</div>
+
+      <div class="nav-links" id="nav-links">
+        <a href="/" class="nav-item-sel"> Home </a>
+        <a href="https://www.eutawvillesc.org/page34.html" class="nav-item">
+          Announcements
+        </a>
+        <a href="https://www.eutawvillesc.org/page2.html" class="nav-item">
+          Community
+        </a>
+        <a href="https://www.eutawvillesc.org/page54.html" class="nav-item">
+          Business Listings
+        </a>
+        <a href="https://www.eutawvillesc.org/page3.html" class="nav-item">
+          Visitors
+        </a>
+        <a href="https://www.eutawvillesc.org/page57.html" class="nav-item">
+          Events
+        </a>
+        <a href="https://www.eutawvillesc.org/page8.html" class="nav-item">
+          Links
+        </a>
+      </div>
+    </div>
+
+    <div class="eles">
+      <div class="outer">
+        <div class="town" id="town">
+          <h1>Eutawville, SC</h1>
+          <h2> Official Town Website </h2>
+          <img src="images/townhall.png" />
+          <p>
+            Warm wishes from the Town of Eutawville. We hope our website meets
+            your needs as you conduct business, obtain information, or learn
+            about our community. Eutawville is a peaceful town located on the
+            banks of Lake Marion. We offer a lakeside life style with a wide
+            variety of recreational activities and affordable housing stock.
+          </p>
+        </div>
+      </div>
+      <div class="outer">
+        <div class="payment" id="payment">
+          <h1>Payment</h1>
+          <ul>
+            <li>
+              You can pay court fines, traffic tickets, and water bills online
+              using a major credit card (a small service fee will be charged)
+            </li>
+            <li>
+              Please contact the nCourt Client Support Hotline with any
+              questions or concerns from 8:00 AM to 6:00 PM Monday through
+              Friday
+            </li>
+            <li>
+              For water bills and business licenses calls, call 877-794-1145
+            </li>
+            <li>For court inquiries, call 833-881-3234</li>
+          </ul>
+          <button>Pay Online</button>
+        </div>
+      </div>
+    </div>
+
+    <script>
+      const hamburger = document.getElementById("hamburger");
+      const navLinks = document.getElementById("nav-links");
+
+      hamburger.addEventListener("click", () => {
+        navLinks.classList.toggle("active");
+      });
+    </script>
+  </body>
+</html>

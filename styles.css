@@ -1,0 +1,195 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: #F4F0F0;
+}
+
+.hamburger {
+  display: none;
+  font-size: 2rem;
+  color: white;
+  margin-right: 3vw;
+  cursor: pointer;
+}
+
+.nav-icons {
+  display: flex;
+  flex-direction: row;
+  height: 10vh;
+  align-items: center;
+}
+
+.nav-bar {
+  background: linear-gradient(to bottom, #0f728b, #8fcbff);
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  width: 100%;
+  position: relative;
+  margin: 0;
+  padding: 0;
+  margin-bottom: 5vh;
+}
+
+img {
+  height: 80%;
+  width: auto;
+}
+
+.nav-links {
+  display: flex;
+  gap: 2vw;
+}
+
+.nav-item {
+  text-decoration: none;
+  color: white;
+  padding: 10px 15px;
+  transition: 0.3s;
+  font-family: "Inter", sans-serif;
+}
+
+.nav-item:hover {
+  background-color: rgb(107, 108, 108);
+}
+
+.nav-item-sel {
+  text-decoration: underline;
+  color: white;
+  padding: 10px 15px;
+  transition: 0.3s;
+  font-family: "Inter", sans-serif;
+  font-weight: bolder;
+}
+
+.nav-item-sel:hover {
+  background-color: rgb(107, 108, 108);
+}
+
+.menu {
+  height: 6vh;
+  width: auto;
+  margin-right: 3vw;
+}
+
+@media screen and (min-width: 768px) {
+  body {
+    font-size: 14px;
+  }
+}
+
+@media screen and (min-width: 1000px) {
+  body {
+    font-size: 16px;
+  }
+}
+
+@media screen and (min-width: 1200px) {
+  body {
+    font-size: 20px;
+  }
+}
+
+@media screen and (min-width: 1800px) {
+  body {
+    font-size: 30px;
+  }
+}
+
+@media screen and (min-width: 2400px) {
+  body {
+    font-size: 40px;
+  }
+}
+
+@media screen and (max-width: 2000px) {
+  .nav-links {
+    display: none;
+    flex-direction: column;
+    position: absolute;
+    top: 10vh;
+    right: 0;
+    background: #4b4b4b;
+    width: 100%;
+    padding: 1rem 0;
+    z-index: 1000;
+  }
+
+  .nav-links.active {
+    display: flex;
+  }
+
+  .hamburger {
+    display: block;
+  }
+}
+
+.town {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 50%;
+    align-items: center;
+    margin: 0 auto; 
+    gap: 3vh;  
+}
+
+.town p {
+    font-family: "Inter", sans-serif;
+    text-align: center;
+}
+
+.town img {
+    width: 100%;
+    height: auto;
+}
+
+.payment {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 50%;
+    align-items: center;
+    margin: 0 auto; 
+    gap: 3vh;
+}
+
+.payment ul {
+    font-family: "Inter", sans-serif;
+}
+
+.payment button {
+    font-family: "Inter", sans-serif;
+    font-size: 40px;
+    border-radius: 30px;
+    padding: 20px 30px;
+    background-color: #559DFB;
+    border-width: 0px;
+}
+
+.payment button:hover {
+    background-color: #abceff;
+}
+
+.eles {
+    display: flex;
+    flex-direction: column;
+    gap: 10vh;
+}
+
+.outer {
+    background-color: #EFFEFF;
+    width: 80%;
+    margin: 0 auto;
+}
+
+.town h2 {
+    font-weight: normal;
+}
