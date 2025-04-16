@@ -189,14 +189,6 @@ img {
   body {
     font-size: 14px;
   }
-
-  h1 {
-    font-size: 26px;
-  }
-
-  .town .payment .contact {
-    width: 80%;
-  }
 }
 
 @media screen and (min-width: 1000px) {
@@ -242,5 +234,13 @@ img {
 
   .hamburger {
     display: block;
+  }
+
+  h1 {
+    font-size: 26px;
+  }
+
+  .town .payment .contact {
+    width: 80%;
   }
 }
