@@ -7,7 +7,7 @@
 }
 
 body {
-  background-color: #F4F0F0;
+  background-color: #f4f0f0;
 }
 
 .hamburger {
@@ -132,64 +132,96 @@ img {
 }
 
 .town {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    width: 50%;
-    align-items: center;
-    margin: 0 auto; 
-    gap: 3vh;  
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 50%;
+  align-items: center;
+  margin: 0 auto;
+  gap: 3vh;
 }
 
 .town p {
-    font-family: "Inter", sans-serif;
-    text-align: center;
+  font-family: "Inter", sans-serif;
+  text-align: center;
 }
 
 .town img {
-    width: 100%;
-    height: auto;
+  width: 100%;
+  height: auto;
 }
 
 .payment {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    width: 50%;
-    align-items: center;
-    margin: 0 auto; 
-    gap: 3vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 50%;
+  align-items: center;
+  margin: 0 auto;
+  gap: 3vh;
 }
 
 .payment ul {
-    font-family: "Inter", sans-serif;
+  font-family: "Inter", sans-serif;
 }
 
 .payment button {
-    font-family: "Inter", sans-serif;
-    font-size: 40px;
-    border-radius: 30px;
-    padding: 20px 30px;
-    background-color: #559DFB;
-    border-width: 0px;
+  font-family: "Inter", sans-serif;
+  font-size: 40px;
+  border-radius: 30px;
+  padding: 20px 30px;
+  background-color: #559dfb;
+  border-width: 0px;
 }
 
 .payment button:hover {
-    background-color: #abceff;
+  background-color: #abceff;
 }
 
 .eles {
-    display: flex;
-    flex-direction: column;
-    gap: 10vh;
+  display: flex;
+  flex-direction: column;
+  gap: 10vh;
 }
 
 .outer {
-    background-color: #EFFEFF;
-    width: 80%;
-    margin: 0 auto;
+  background-color: #effeff;
+  width: 80%;
+  margin: 0 auto;
 }
 
 .town h2 {
-    font-weight: normal;
+  font-weight: normal;
+}
+
+.footer {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  background-color: #696bff;
+  align-items: center;
+  padding: 0 2rem;
+  margin-top: 5vh;
+  font-weight: bolder;
+}
+
+.contact {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 90%;
+  margin: 0 auto;
+  gap: 3vh;
+}
+
+.emergency {
+  color: red;
+  font-weight: bolder;
+}
+
+.boxes {
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
 }
