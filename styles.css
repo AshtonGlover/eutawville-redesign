@@ -179,7 +179,7 @@ img {
   justify-content: space-between;
 }
 
-@media screen and (max-width: 800px) {
+@media screen and (max-width: 1000px) {
   .boxes {
     width: 70%;
     display: flex;
