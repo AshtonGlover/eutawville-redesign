@@ -124,6 +124,7 @@ img {
   padding: 10px 15px;
   background-color: #559dfb;
   border-width: 0px;
+  color: black;
 }
 
 .payment button:hover {
