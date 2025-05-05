@@ -205,6 +205,10 @@ img {
     font-size: 16px;
   }
 
+  .town h2 {
+    font-size: 22px;
+  }
+
   .town {
     width: 80%;
   }
@@ -240,7 +244,7 @@ img {
   }
 }
 
-@media screen and (max-width: 800px) {
+@media screen and (max-width: 900px) {
   .nav-links {
     display: none;
     flex-direction: column;
