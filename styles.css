@@ -197,7 +197,7 @@ img {
   }
 
   .town {
-    width: 80%;
+    width: 90%;
   }
 
   .payment {
@@ -268,5 +268,9 @@ img {
 
   h1 {
     font-size: 26px;
+  }
+
+  .town {
+    width: 90%;
   }
 }
